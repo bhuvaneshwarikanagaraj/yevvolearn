@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physics Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #ffffff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        .left {
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .left img {
+            max-width: 80%; 
+            height: auto;
+        }
+        .right {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .question-box {
+            background: rgb(226, 233, 249);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 1.2em;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <img src="https://i.gifer.com/71tt.gif" alt="Physics Animation">
+    </div>
+    <div class="right">
+        <button class="question-btn" onclick="location.href='visible-light.html'">1. What is Visible Light?</button>
+        <button class="question-btn" onclick="location.href='plane-mirror.html'">2. What is Plane Mirror?</button>
+        <button class="question-btn" onclick="location.href='lateral-inversion.html'">3. What do you mean by Lateral Inversion?</button>
+    </div>
+    
+    <style>
+        .right {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: center;
+        }
+    
+        .question-btn {
+            padding: 15px 20px;
+            font-size: 1.2em;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.3s;
+            background: #007bff;
+            color: white;
+            border: 2px solid #0056b3;
+            width: 80%;
+            max-width: 400px;
+            text-align: center;
+        }
+    
+        .question-btn:hover {
+            background: #0056b3;
+            transform: scale(1.05);
+        }
+    </style>
+    
+</body>
+</html>
